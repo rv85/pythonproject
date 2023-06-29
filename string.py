@@ -92,3 +92,28 @@ x="Good Evening Hyderabad"
 y=x.split(" ")
 print(y,type(y))
 print(y[2])
+
+#string slicing; extract particular portion of a string( extract python)
+x="python program"
+print (x[0:6])
+#extract program 
+print (x[7:14])
+
+#extract prog using negative index
+print(x[-7:-3])
+
+#print in uppercase
+x="hyderabad"
+print(x.upper())
+
+#print in lowercase
+x="HYDERABAD"
+print(x.lower())
+
+#capatalize
+x="good evening hyderabad"
+print(x.capitalize())
+
+#swap-prints lower to upper
+x="good evening hyderabad"
+print(x.swapcase())
